@@ -2,10 +2,10 @@
 $(call inherit-product, build/target/product/sdk.mk)
 
 # Inherit common product files.
- $(call inherit-product, vendor/rascarlo/products/common.mk)
+ $(call inherit-product, vendor/raskorr/products/common.mk)
 
 # Setup device specific product configuration.
-PRODUCT_NAME := rascarlo_emulator
+PRODUCT_NAME := raskorr_emulator
 PRODUCT_BRAND := Android
 PRODUCT_DEVICE := generic
 PRODUCT_MODEL := Emulator
