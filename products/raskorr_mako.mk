@@ -14,7 +14,7 @@ PRODUCT_MANUFACTURER := LGE
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=occam BUILD_FINGERPRINT=google/occam/mako:4.2.2/JDQ39/573038:user/release-keys PRIVATE_BUILD_DESC="occam-user 4.2.2 JDQ39 573038 release-keys"
 
 # Inherit media effect blobs
--include vendor/rasckorr/products/common_media_effects.mk
+-include vendor/raskorr/products/common_media_effects.mk
 
 # Inherit common build.prop overrides
--include vendor/rasckorr/products/common_versions.mk
+-include vendor/raskorr/products/common_versions.mk
